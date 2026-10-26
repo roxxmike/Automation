@@ -1,0 +1,26 @@
+.carousel-main{
+    position: relative;
+    width: max-content;
+    margin: auto;
+}
+
+.carousel-item{
+    text-align: center;
+    width: max-content;
+}
+
+.carousel-button{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev-button{
+    left: 0;
+}
+
+.next-button{
+    right: 0;
+}
